@@ -6,34 +6,34 @@ const services = [
   {
     icon: Scissors,
     title: "Design de Sobrancelhas",
-    description: "Técnica personalizada para o formato do seu rosto, realçando sua beleza natural.",
-    price: "R$ 80",
+    description: "Técnica personalizada para o formato do seu rosto, realçando sua beleza natural com precisão.",
+    price: "R$ 85",
     duration: "45min",
-    features: ["Análise facial", "Design personalizado", "Depilação com pinça"]
+    features: ["Análise facial completa", "Design personalizado", "Depilação com pinça premium"]
   },
   {
     icon: Palette,
     title: "Henna Premium",
-    description: "Coloração natural que define e preenche as sobrancelhas por até 15 dias.",
+    description: "Coloração natural que define e preenche as sobrancelhas por até 20 dias com tonalidade perfeita.",
     price: "R$ 120", 
     duration: "60min",
-    features: ["Henna importada", "Cor personalizada", "Duração de 15 dias"]
+    features: ["Henna importada premium", "Cor personalizada", "Duração até 20 dias"]
   },
   {
     icon: Sparkles,
     title: "Micropigmentação",
-    description: "Técnica definitiva para sobrancelhas sempre perfeitas, com resultado natural.",
+    description: "Técnica definitiva para sobrancelhas sempre perfeitas, com resultado ultra natural e duradouro.",
     price: "R$ 450",
-    duration: "2h",
-    features: ["Técnica fio a fio", "Anestesia tópica", "Retoque incluso"]
+    duration: "2h30",
+    features: ["Técnica fio a fio", "Anestesia tópica incluída", "Retoque gratuito em 30 dias"]
   },
   {
     icon: Award,
     title: "Combo Premium",
-    description: "Design + Henna + Manutenção. O tratamento completo para suas sobrancelhas.",
-    price: "R$ 180",
+    description: "Design + Henna + Manutenção. O tratamento completo e exclusivo para suas sobrancelhas.",
+    price: "R$ 185",
     duration: "90min",
-    features: ["Design completo", "Henna premium", "Manutenção 30 dias"]
+    features: ["Design completo", "Henna premium", "Manutenção gratuita em 30 dias"]
   }
 ];
 
@@ -43,7 +43,7 @@ export const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Nossos <span className="gradient-primary bg-clip-text text-transparent">Serviços</span>
+            Nossos <span className="text-gradient-primary">Serviços</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Técnicas exclusivas e produtos premium para realçar a beleza das suas sobrancelhas
@@ -69,7 +69,7 @@ export const ServicesSection = () => {
                       <Clock className="w-4 h-4" />
                       <span>{service.duration}</span>
                     </div>
-                    <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+                    <div className="text-2xl font-bold text-gradient-primary">
                       {service.price}
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export const ServicesSection = () => {
                     ))}
                   </div>
 
-                  <Button className="w-full gradient-primary text-primary-foreground hover:opacity-90 transition-premium">
+                  <Button className="w-full btn-premium">
                     Agendar Serviço
                   </Button>
                 </CardContent>
@@ -102,7 +102,7 @@ export const ServicesSection = () => {
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-2 bg-primary/10 rounded-full px-6 py-3 mb-4">
             <Award className="w-5 h-5 text-primary" />
-            <span className="font-medium text-primary">Primeira sessão com 20% de desconto</span>
+            <span className="font-medium text-primary">Primeira sessão com 20% de desconto para novas clientes</span>
           </div>
           <p className="text-muted-foreground">
             Não encontrou o que procura? Entre em contato para um atendimento personalizado.

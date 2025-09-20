@@ -154,4 +154,35 @@
   .transition-smooth {
     transition: var(--transition-smooth);
   }
+
+  /* Text gradient utilities */
+  .text-gradient-primary {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Enhanced button styles */
+  .btn-premium {
+    background: var(--gradient-primary);
+    border: none;
+    color: hsl(var(--primary-foreground));
+    box-shadow: var(--shadow-elegant);
+    transition: var(--transition-premium);
+  }
+
+  .btn-premium:hover {
+    box-shadow: var(--shadow-premium);
+    transform: translateY(-1px);
+    opacity: 0.95;
+  }
+
+  /* Glass effect utilities */
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }

@@ -17,7 +17,7 @@ export const Navigation = ({ onLoginClick }: NavigationProps) => {
           <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
             <Star className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+          <span className="text-2xl font-bold text-gradient-primary">
             Bella Brows
           </span>
         </div>

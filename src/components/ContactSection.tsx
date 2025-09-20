@@ -10,11 +10,11 @@ export const ContactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Entre em <span className="gradient-primary bg-clip-text text-transparent">Contato</span>
+            Entre em <span className="text-gradient-primary">Contato</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Estamos prontas para atender você! Agende sua avaliação gratuita 
-            ou tire suas dúvidas através dos nossos canais de atendimento.
+            ou esclareça suas dúvidas através dos nossos canais de atendimento.
           </p>
         </div>
 
@@ -133,7 +133,7 @@ export const ContactSection = () => {
                 />
               </div>
 
-              <Button className="w-full gradient-primary text-primary-foreground hover:opacity-90 transition-premium">
+              <Button className="w-full btn-premium">
                 Enviar Mensagem
               </Button>
 

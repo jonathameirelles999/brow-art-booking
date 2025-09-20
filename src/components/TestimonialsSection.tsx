@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Maria Silva",
     role: "Advogada",
-    content: "Simplesmente perfeito! A técnica da Bella Brows transformou completamente meu olhar. Agora acordo todos os dias com sobrancelhas perfeitas.",
+    content: "Simplesmente perfeito! A técnica da Bella Brows transformou completamente meu olhar. Agora acordo todos os dias com sobrancelhas impecáveis.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=faces"
   },
@@ -19,28 +19,28 @@ const testimonials = [
   {
     name: "Carolina Mendes",
     role: "Influenciadora",
-    content: "Há anos procurava alguém que entendesse o formato do meu rosto. Encontrei na Bella Brows! Trabalho impecável e duradouro.",
+    content: "Há anos procurava alguém que entendesse o formato do meu rosto. Encontrei na Bella Brows! Trabalho impecável e resultado duradouro.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=faces"
   },
   {
     name: "Letícia Rodrigues",
     role: "Designer",
-    content: "A micropigmentação foi a melhor decisão que tomei. Resultado natural, sem dor e com acompanhamento pós-procedimento excepcional.",
+    content: "A micropigmentação foi a melhor decisão que tomei. Resultado ultra natural, sem dor e com acompanhamento pós-procedimento excepcional.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=faces"
   },
   {
     name: "Juliana Santos",
     role: "Médica",
-    content: "Como profissional da saúde, valorizo muito a higiene e segurança. A Bella Brows superou todas as minhas expectativas em todos os aspectos.",
+    content: "Como profissional da saúde, valorizo muito a higiene e protocolos de segurança. A Bella Brows superou todas as expectativas em todos os aspectos.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=150&h=150&fit=crop&crop=faces"
   },
   {
     name: "Camila Oliveira",
     role: "Professora",
-    content: "Atendimento personalizado e resultado incrível! Minhas sobrancelhas nunca estiveram tão bem definidas e naturais. Amei cada detalhe!",
+    content: "Atendimento personalizado e resultado incrível! Minhas sobrancelhas nunca estiveram tão bem definidas e naturais. Amei cada detalhe do processo!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=faces"
   }
@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            O Que Nossas <span className="gradient-primary bg-clip-text text-transparent">Clientes</span> Dizem
+            O Que Nossas <span className="text-gradient-primary">Clientes</span> Dizem
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A satisfação das nossas clientes é nossa maior conquista. 
@@ -63,11 +63,11 @@ export const TestimonialsSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-4xl font-bold gradient-primary bg-clip-text text-transparent mb-2">500+</div>
+            <div className="text-4xl font-bold text-gradient-primary mb-2">500+</div>
             <div className="text-muted-foreground">Clientes Satisfeitas</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold gradient-primary bg-clip-text text-transparent mb-2">5.0</div>
+            <div className="text-4xl font-bold text-gradient-primary mb-2">5.0</div>
             <div className="text-muted-foreground flex items-center justify-center space-x-1">
               <span>Avaliação</span>
               <div className="flex">
@@ -78,11 +78,11 @@ export const TestimonialsSection = () => {
             </div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold gradient-primary bg-clip-text text-transparent mb-2">98%</div>
+            <div className="text-4xl font-bold text-gradient-primary mb-2">98%</div>
             <div className="text-muted-foreground">Taxa de Retorno</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold gradient-primary bg-clip-text text-transparent mb-2">3</div>
+            <div className="text-4xl font-bold text-gradient-primary mb-2">3</div>
             <div className="text-muted-foreground">Anos de Experiência</div>
           </div>
         </div>
